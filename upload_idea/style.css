@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.checkout_box {
+	background-color:#F3F3F3;
+	padding:8px;
+	font-size:18px;
+}
+
+.checkout_box:hover {
+	background-color:#CCCCCC;
+}
+.
+.checkout_box_top
+{
+background-image:url(images/system/checkout_box_top.png); background-repeat:no-repeat; background-position:top;
+
+}
+.activetab
+{
+color:#000000;
+font-weight:bold;
+}
+.inactivetab
+{
+color:#000000;
+}
+
+.activetab hover
+{
+color:#000000;
+font-weight:bold;
+}
+.inactivetab a
+{
+color:#0000CC;;
+}
+
+a
+{
+text-decoration:none;
+}

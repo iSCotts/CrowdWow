@@ -1,0 +1,1302 @@
+body { word-wrap:break-word;}
+
+/** 
+	Custom Dropdowns 
+*/
+ul.newList * {margin:0; padding:0;}
+ul.newList a {color: #000; text-decoration:none; display:block;}
+ul.newList {
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin:0;
+	margin-top: 5px;
+	padding:0; 
+	list-style:none; 
+	color:#000; 
+	width:140px; 
+	background:#fff; 
+	position:absolute;  
+	border:1px solid #ccc; 
+	top:22px; 
+	left:0; 
+	overflow:auto; 
+	z-index:9999;
+} 
+.newListSelected span {width:135px; display:block;}
+ul.newList li a {
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding:3px 8px; 
+	display: 
+	block;
+}
+ul.newList li a:focus {-moz-outline-style: none;}
+.selectedTxt {width:135px; overflow:hidden; height:16px; padding:0 23px 0 0;}
+.hiLite {background:#4d3069!important; color:#fff!important;}
+.hiLite a {background:#4d3069!important; color:#fff!important;}
+.newListHover {background:#ECECEC!important; color:#000!important; cursor:default;}
+.newListSelHover, .newListSelFocus {background-position:0 -22px; cursor:default;}
+.newListOptionTitle {font-weight:bold;}
+.newListOptionTitle ul {margin:3px 0 0;}
+.newListOptionTitle li {font-weight:normal; border-left:1px solid #ccc;}
+.newListSelected {
+	background:url("http://www.quirky.com/images/dropdown_arrow.png") no-repeat scroll 0 0 transparent;
+	background-position: right;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background-color:transparent;
+	border:1px solid #E1E1E1;
+	float:left;
+	font-size:12px;
+	height:18px;
+	padding:2px 0 1px 10px;
+}
+
+.skuDrop .newListSelected {
+	background:url("http://www.quirky.com/images/blue_dropdown_arrow.png") no-repeat scroll 0 0 transparent;
+	background-position: right;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background-color:transparent;
+	border:1px solid #E1E1E1;
+	font-size:12px;
+	height:18px;
+	padding:2px 0 1px 10px;
+	float:none;
+}
+
+.skuDrop .hiLite {background:#009FDA!important; color:#fff!important;}
+.skuDrop .hiLite a {background:#009FDA!important; color:#fff!important;}
+
+
+div.search-filter ul.newList{
+	width:100px;
+}
+
+div.search-filter .selectedTxt{
+	width:95px;
+}
+
+
+/** 
+	Fix for products page/partial
+*/
+
+.paginate {
+	height: 25px;
+}
+
+.shop-products {
+	margin-top: 15px;
+}
+
+/**
+  /Tabs
+*/
+  .ui-tabs-hide{
+		display:none !important;
+	} 
+	
+  .ui-tabs-selected a, .ui-tabs-selected a h2{
+	   color:#335687 !important;
+	}  
+
+  .ui-state-hover a{
+	   color:#00AEF0 !important;
+	} 
+       
+	.ui-state-default p.crew-name{
+		font-weight: bold; 
+	}
+	
+	.ui-state-active p.crew-name{
+	color: #335687;
+	} 
+	
+	.ui-state-active p.crew-title{
+		color:#555;
+	}
+	
+	#learn-tabs li.ui-tabs-selected, #about-tabs li.ui-tabs-selected{
+		border-bottom: 1px solid white;
+		border-bottom-left-radius: 0px 0px;
+		border-bottom-right-radius: 0px 0px;
+		border-left: 1px solid #E5E5E5;
+		border-right: 1px solid #E5E5E5;
+		border-top: 1px solid #E5E5E5;
+		border-top-left-radius: 5px 5px;
+		border-top-right-radius: 5px 5px;  
+	} 
+	
+	#learn-tabs li.ui-tabs-selected a h2, #about-tabs li.ui-tabs-selected a h2{
+		border:0px;
+	} 
+	
+/**
+* Video Dialogs
+*/             
+	        
+	.ui-dialog-titlebar{
+		color:#ccc;
+		text-align:left;
+		padding:2px 15px; 
+	}
+	.ui-dialog-titlebar a{
+	 	float:right;
+	}
+	.ui-dialog{
+		background:black;
+		font-size:16px; 
+	}
+	.video-pop{
+		display:none;
+	} 
+	
+/**
+*  Login Menu
+*/           
+
+	a.drop_arrow{
+		background-image: url("http://www.quirky.com/images/control_down_arrow.png");
+		background-position: 100% 3px;
+		cursor: pointer;
+		padding-right: 20px;  
+	}  
+	
+	.user-login{
+		background-image:none !important;
+	}
+	
+	div.header a.button{
+		font-weight:normal;
+	} 
+	
+/**
+*  Idea Submit
+*/
+
+	div.design_based{
+		display:none;
+	}
+	
+	p.variable_input a{
+		float:right;
+	}
+	 
+	div.idea-sidebar input#coupon_code{
+		width:120px;
+		float:left;
+	}
+	
+	div.idea-sidebar a.button.small{
+		padding:5px 6px;
+		margin:2px 10px 0px;
+	}
+/**
+*  Product Ratings
+*/           
+
+	#review-rating {
+		margin:5px 0 0 15px;
+	}
+	
+	#review-rating .ui-stars-star,
+	#review-rating .ui-stars-cancel {
+		padding-right: 8px;
+	}
+	
+	.rating-stars .star.inactive:hover {
+		 background-image:url("http://www.quirky.com/images/rating_star_sm_inactive.png"); 
+	}
+	
+/**
+* Comments grid
+*/     
+
+	.inner-level{
+		margin-left:15px;
+	}
+
+	.inner-level .inner-level .inner-level .reply {
+		display: none;
+	}
+	
+	.inner-level .inner-level .inner-level .comment-reply-count {
+		display: none;
+	}
+	
+/**
+* Ratings Table Stars
+*/
+
+
+	.rating-stars .ui-stars-star:first-child {
+		background-position:left top;
+		padding-left:0;
+	}
+
+	.rating-stars .ui-stars-star {
+		cursor:pointer;
+		display:block;
+		float:left;
+		height:15px;
+		padding:0 8px;
+		width:16px;
+	}
+
+/**
+*  Legal
+*/      
+		div.legal h2, div.legal h1{color:#004a80;} 
+		div.legal span.revision {font-weight:bold; font-size:14px;}
+		div.legal p{margin:10px 0px;}
+		div.legal li{margin:8px 0px;} 
+		
+/**
+*  Errors
+*/       
+
+	div.errorExplanation ul, p.ideaError, p.ideaErrorHead{
+		color:#fa0018;
+		font-weight:bold;
+	} 
+	
+	p.ideaErrorHead{
+		font-size:16px;
+		margin-bottom:5px;
+	}    
+	
+	div.errorExplanation p, div.errorExplanation h2{
+		display:none;
+	}
+	
+	
+	div.fieldWithErrors input, div.fieldWithErrors textarea, ul.fieldWithErrors input, ul.fieldWithErrors textarea{
+		background:#fccccc !important;
+	} 
+		
+	p.login-error{
+		color:#ec008c;
+		font-weight:bold;
+	}
+	
+	ul.fieldWithErrors li a.light-soft{
+	   background:#fccccc;
+	   color:#fff;
+	}  
+	
+
+/**
+*  Search
+*/       
+
+	input.entered{color:#000000 !important;}
+	
+/**
+* Cart
+*/
+	.quantity-change-form #cart_item_quantity {
+		width: 20px;
+		float: left;
+	}
+	
+	.quantity-change-form #cart_item_submit {
+		margin-top: 4px;
+		margin-left: 4px;
+	}
+	
+	.quantity-change-form {
+		display: none;
+	}
+	
+/**
+* Product Grid
+*/
+	.product-grid-item .state-icon {
+		display: none;
+	}
+	
+	.product-grid-item:hover .state-icon {
+		display: block;
+	}
+	
+/**
+* Address Form
+*/
+	.inline-radio-buttons label {
+		width: 25px;
+	}
+
+.clearFieldBlurred { color: #999; }
+.clearFieldActive { color: #000; }
+
+/**
+* FAQ Accordions
+*/               
+
+div.subheading{padding: 10px 0px 7px 20px;} 
+
+/**
+* Learn Additions
+*/
+
+ul.sub-tab li{
+    float:left;
+	background-color: #E2E2E2;
+	padding: 5px 15px;
+	margin-left:8px;
+} 
+
+ul.sub-tab li a{
+		color:#bababa;  
+}  
+
+div.link-sample{
+	font-size:12px;
+	margin-bottom:8px;
+} 
+
+div#influence-calculator h3{
+	font-size:14px;
+	background-color: transparent;
+}
+
+div#influence-calculator{
+   text-align:center; 
+}
+
+form#whatIfForm input{
+	text-align:right;
+	color:#747474;
+	font-size:18px;
+	width:102px;
+	margin-left:15px;
+	margin-right:5px;
+}
+
+form#whatIfForm td{
+	vertical-align:middle;
+	color:#335687;
+	font-size:12px;
+	font-weight:normal;
+} 
+
+div#influence-calculator div.calc-div{
+	background-color:#E0119D;
+	color:#fff;
+	font-size:14px;
+	margin:15px auto;
+	padding:10px 20px;
+} 
+
+div#influence-calculator div.calc-div span{
+	font-size:20px;
+}
+
+div.learn-side{
+	margin-bottom:15px;
+}
+
+.dark-blue{color:#335687;}
+
+.box-element{padding:8px 15px;}
+
+.light-sans span.front{
+	color:#00AEF0;
+	font-weight:bold;
+}
+
+#stories .light-sans{
+	padding:8px 0px;
+}
+
+p.story-question{
+	font-weight:bold;
+}
+
+div.patents{
+	text-align:center;
+}
+
+/*
+* Tool Tips
+*/      
+
+div.tooltip{
+	max-width:300px;
+	text-align:left;
+	padding:3px 5px; 
+	font-size: 9px; background-color:#FFF; border: 1px solid #e5e5e5;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; 
+	-moz-box-shadow:1px 1px 1px #dedede; 
+	-webkit-box-shadow:1px 1px 1px #dedede;
+	box-shadow:1px 1px 1px #dedede;
+} 
+
+/*
+* Submit Landing
+*/              
+
+.price-tag.price-tag-free .hd {
+	min-height:75px;
+}
+
+/*
+* Sku Select
+*/
+
+.sku-select-box h4 { 
+	margin:0px 0px 0px 0px; 
+	font-weight:bold; color:#335687; 
+}
+
+.sku-select-box p {
+	width: 600px;
+	color:#335687;
+	float:left;
+	font-size:14px;
+	margin-bottom:0;
+}
+
+.sku-select-box {
+	padding: 12px 15px;
+	margin-bottom: 5px;
+}
+
+.sku-images li.sku-image {
+	float: left;
+	margin-bottom: 3px;
+}
+
+.sku-images p.sku-name-caption {
+	color: #BABABA;
+	margin-bottom: 0px;
+}
+
+.quantity-callout-box strong {
+	color:#335687;
+	font-size: 18px;
+}
+
+.quantity-callout-box {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.sku-detail .product-details { 
+	width: 180px; 
+	margin: 0px 0 15px 0;
+	border-bottom: 1px solid #E2E2E2;
+	padding-bottom: 3px;
+}	
+.sku-detail .product-details h3.product-title { font-size:28px; }
+.sku-detail .product-details p.tagline {font-size: 12px; margin:0 0 10px 0;}
+.sku-detail .product-details a.price { font-size: 18px; float: left; margin-right:10px;}
+.sku-detail .product-details p.msrp {font-size: 12px; margin:7px 0 0 0; float: left; color:#BABABA;}
+.sku-detail p.product-state { font-size:14px; }
+
+.sizing-details .sku-description a {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.sku-select-head {
+	padding: 15px;
+}
+
+.quantity-callout-box {
+	margin-bottom: 10px;
+}
+
+.sku-choose {
+	float: right;
+}
+
+.cart-section .sku-choose h2 {
+	color: #00AEF0;
+}
+
+.cart-section .sku-select-head h2 {
+	font-size: 14px;
+}
+
+.choose-arrow {
+	float: right;
+	margin-left: 5px;
+	padding-top: 6px;
+}
+
+.sku-select-container {
+	padding: 15px 15px 0px 15px;
+}
+
+.sku-choices .sku-description {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #D6D6D6;
+	height: 25px;
+}
+
+.sku-choices li.last {
+	margin: 0 0 0 0;
+	border-bottom: none;
+	margin-bottom 0;
+}
+
+.sku-choices .sku-description .newListSelected {
+	background-color: #fff;
+	width: 60px;
+}
+
+.sku-choices .sku-description .sku-link a {
+	font-weight: bold;
+}
+
+.cart-section-foot {
+	border-top: 1px solid #EAEAEA;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.cart-section-foot p.price {
+	float: right;
+	
+}
+
+.total-label {
+	margin-left: 570px;
+}
+
+.floating-button {
+	margin: 15px 0 15px 0;
+} 
+
+/*
+* Product Details
+*/               
+
+.xMidContent .accordion-item{
+	padding:0px;
+}
+
+.calendar table tbody td.otherMonth a{
+	display:none;
+} 
+
+.calendar table tbody td.milestone{
+   text-decoration:line-through; 
+} 
+
+.calendar table tbody td.date-selected{
+	color:#00aef0;
+	text-decoration:none !important;
+}
+
+.calendar table tbody td.date-selected a{
+	color:#00aef0;
+	background:#b9e5fb;
+}
+  
+.odd-row{
+	background-color:#F6F6F6;
+}
+
+
+/*
+* Footer Fix
+*/
+
+.footer {
+	margin-top: -100px !important;
+}
+
+/*
+* Recently Viewed Products Fix
+* variable length names make them chunk on to
+* the next line.
+*/
+
+.shop-product-details .recently-viewed .product-list li {
+	margin:15px 15px 15px 0 !important;
+}
+
+/*
+* Fix carousel for gradient
+*/
+
+.jcarousel-next, .jcarousel-prev {
+	z-index: 1001;
+}
+
+li.empty {
+	display: none;
+}
+
+li.available {
+	display: block !important;
+}
+
+/*
+*   Product Overview
+*/
+
+div.user-idea-summary #comment-box{
+	padding:25px 0px;
+	margin:0px;
+}  
+
+div.blue-active{
+	   background:#b9e5fb;     
+}                              
+
+div.user-idea-summary #overview-content{
+		padding-right:25px;
+}  
+
+div#panel-flow{
+	overflow:visible;
+} 
+
+div.dot-side{
+	background-color:white;
+	padding:0px 10px;
+	border:1px #ccc solid !important;
+}
+div.dot-side div.hd{
+	padding-top:12px;
+} 
+div.dot-side ul.user-list li.user{
+	border-top: 1px dotted #D6D6D6 !important; 
+	padding-top:5px;
+}
+/*
+* Spacing for project winners
+*/
+
+.your-overview .idea-item {
+	margin-bottom: 10px;
+}
+
+/*
+* Product Timeline
+*/
+
+.timeline-component-steps {
+	border-bottom: 1px dotted #969696;
+} 
+   
+/*
+* Brief Submissions
+*/
+.quirky-idea .idea-splash.brief h2.no-padding{
+	padding:0px;
+}                   
+
+/* 
+* Forum
+*/
+
+.forum-page table.forum-table thead tr th.thetopics, .forum-page table.forum-table tbody tr td.thetopics{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+} 
+
+/*
+*  Analytics
+*/
+    
+.analytics-sub-tab{
+	float:right; 
+	height:25px;line-height:25px;
+}
+.analytics-sub-tab li{
+	float:left;
+	border-right: 1px solid #c7c8ca;
+	padding:0px 10px;
+	font-weight:bold;
+}
+
+.pieGraphCont .accordion-item{
+	border-bottom:1px solid #c7c8ca;
+	padding:5px 5px;
+}            
+
+.analytics-questions{
+	border:1px solid #c7c8ca;
+	margin-right:10px;
+}   
+
+.analytics-right{
+	border:1px solid #c7c8ca;
+	
+}      
+  
+
+
+.share_button{
+	padding:3px;
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	-webkit-border-radius: 5px 5px;
+
+	background:#009FDA;
+	text-align:center;
+} 
+
+.sharethis{
+	color:#fff !important; 
+	font-weight:bold;
+}
+
+div.product-details .share_button{
+   background-color:#fff; 
+}
+
+div.product-details .share_button .sharethis{
+	color:#00AEF0 !important;
+	font-weight:normal; 
+}
+
+/*
+* Meet the creative
+*/
+
+.meet-the-inventor .user-list li.user {
+	padding-right: 0;
+}
+
+.pillar .meet-the-inventor {
+	background-color: #F6F6F6;
+	border-color: #E1E1E1;
+}
+
+/*
+* Product Spacing Bug
+*/
+
+.shop-products .product {
+	height: 240px;
+}
+
+/*
+* Attachment Stuff
+*/
+
+.att-thumb img {
+	margin: 5px;
+}
+
+/*
+* New Logo
+*/
+
+.hub .logo {
+	margin: 11px 0px;
+}  
+
+/*
+*  Process
+*/        
+
+.learn-more-ext .lm-dev {
+	width: 74px !important;
+=======
+}
+
+.footer .box {
+	margin: 0px;
+}
+
+.footer-copyright {
+	padding-top:25px;
+}
+
+/*
+* Add to cart button
+*/
+
+.new-cart-item a.button.small {
+	font-size:12px;
+	padding:4px 18px;
+}
+
+/*
+* Admin Style
+*/
+
+.order-list-table tr th, .order-list-table tr {
+	text-align: center;
+}
+
+/* influential comments */
+.influential_comment { background-color:#b9e5fb;} 
+
+/* User Info */
+
+.split-profile tr td, .split-profile tr th{
+	width:200px;
+}
+
+/* Gifts */
+
+h4.last-ship {
+  font-weight: bold;
+  border: none;
+  color: #E0119D;
+  margin: 0;
+}
+
+h5.last-ship-time {
+  padding: 0;
+  height: 16px;
+}
+
+.product-details .state-icon.christmas { 
+  background-image:url(http://www.quirky.com/images/icon_christmas.png); 
+}
+
+.product-details .state-icon.christmas .tool-tip { 
+  color: green; width: 85px; left: -33px; 
+}
+
+/* Questions */
+
+.footer-questions span {
+  width: 75%;
+  color: #BFBFBF;
+  float: right;
+  text-align: left;
+}
+
+.questions-box {
+  background-color: #442359;
+  color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.questions-box p {
+  margin-bottom: 5px;
+}
+
+.big-questions-box {
+  background-color: #009FDA;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+
+.big-questions-box p {
+  font-size: 22px;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* A Socially Developed Product */
+
+h4.soc-product {
+  font-size: 24px;
+  color: #442359;
+  font-weight: bold;
+} 
+
+/* Bed Bath & Beyond Map */
+
+p.bbb_map {
+  margin: 0 0 15px 0;
+  font-size: 12px;
+}
+
+p.hsn_show {
+  color: #828181;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.simple_overlay {
+
+  /* must be initially hidden */
+  display:none;
+
+  /* place overlay on top of other elements */
+  z-index:10000;
+
+  /* styling */
+  background-color:#333;
+
+  width:auto;	
+  min-height:200px;
+  border:1px solid #666;
+
+  /* CSS3 styling for latest browsers */
+  -moz-box-shadow:0 0 90px 5px #000;
+  -webkit-box-shadow: 0 0 90px #000;	
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+  background-image:url(http://www.quirky.com/images/close.png);
+  position:absolute;
+  right:-15px;
+  top:-15px;
+  cursor:pointer;
+  height:35px;
+  width:35px;
+}       
+
+.internship p{
+	margin-bottom:15px;
+}  
+
+.product-by{
+	float: left;
+	padding-right: 148px
+}   
+
+.product-by .name{
+	font-size:14px;
+}
+.product-by .name a{
+	color: #512598;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Facebook */
+
+.fb_container{
+	clear:both;
+	margin:6px 0px;
+}        
+
+/* Address Verification */
+#verification-exp h2 {
+  padding: 8px 0;
+}
+  
+
+/* Sponsored Brief */
+
+.sponsor-brief-title{
+	width:380px;
+} 
+
+.sponsor-logo{
+	padding:8px 0px;
+}
+
+
+/* Idea Confirmation */
+
+.quirky-idea .confirm-share li a{
+	padding:0px;
+	background-position: 0% 0%;
+}         
+
+.fb-module .bd textarea{
+  height:45px;  
+  margin:10px 0px;
+  width:98%;
+  padding:5px;
+}       
+
+.fb-module div#char_counter{
+	font-weight:bold;
+	font-size:14px;
+	padding:6px 0px;
+	float:left;
+}
+
+/* User Videos */
+
+div.user-video-uploader {
+  font-size: 16px;
+  width: 100%;
+}
+
+div.video-options-container {
+  text-align: center;
+}
+
+div.video-option {
+  padding: 5px 15px;
+  text-align: center;
+  width: 150px;
+  height: 99px;
+  -moz-border-radius:5px;
+	border-radius:5px;
+  border-right: #c7c8ca 1px solid;
+  border-bottom: #c7c8ca 1px solid;
+}
+
+div.video-option a:hover {
+  color: #ec008c;
+}
+
+div.video-options-container .selected a {
+  color: #ec008c;
+}
+
+div.video-action-container-background {
+  height: 330px;
+  width: 440px;
+  position: absolute;
+  background:url("http://www.quirky.com/images/uvw/speech_bubbles.png")
+}
+
+div.video-action-container {
+  position: relative;
+  height: 330px;
+  width: 440px;
+  border: #c7c8ca 1px solid;
+}
+
+div.video-action {
+  display: none;
+  height: 330px;
+  width: 440px;
+  position: absolute;
+}
+
+div.video-option-icon {
+  margin: 20px 0 5px 0;
+}
+
+div.youtube-link-entry {
+  padding: 20px 20px 10px 20px;
+}
+
+div.youtube-embed-space {
+  padding: 0px 20px;
+}
+
+div.video-upload-status {
+  margin: 0 5px 0 0;
+  width: 16px;
+  height: 16px;
+}
+
+div.video-upload-icon {
+  display: none;
+}
+
+div.video-action-container-thanks {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 440px;
+  height: 330px;
+  z-index: 80;
+  display: none;
+}
+
+div.video-thank-you {
+  color: white;
+  margin: 140px auto;
+  width: 200px;
+  text-align: center;
+}
+
+div.video-thank-you p {
+  font-size: 30px;
+}
+
+div.video-action-container-disclaimer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 440px;
+  height: 330px;
+  z-index: 80;
+  display: none;
+  
+}
+
+div.video-disclaimer-background {
+  position: absolute;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+div.video-upload-ready {
+  width: 180px;
+  height: 46px;
+  background-image:url('http://www.quirky.com/images/uvw/upload_ready.png');
+  margin: 10px 0 0 0;
+}
+
+div.video-checkbox-holder {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 350px;
+  color: white;
+}
+
+div.video-checkbox {
+  position: relative;
+  width: 130px;
+  margin-right: 20px;
+}
+
+span.video-checkbox-text {
+  position: absolute;
+  top: 0;
+  padding: 10px 0 0 10px;
+}
+
+div.video-disclaimer-text-holder {
+  margin: 0 0 20px 0;
+}
+
+div.video-disclaimer-text-holder p {
+  font-size: 16px;
+}
+
+div.video-action-thanks-text-holder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+div.video-load-prompt {
+  margin: 122px auto 10px auto;
+  width: 283px;
+  height: 45px;
+}
+
+div.video-uploader {
+  width: 260px;
+  margin: 0 auto;
+}
+
+div.record-your-reaction-banner {
+  position: relative;
+  top: -15px;
+  left: -15px;
+}
+
+div.video-overview .bd h2 {
+  border: 0px;
+  padding-top: 0px;
+}
+
+div.video-overview h2 {
+  color: #335687;
+  padding: 0px 0 15px 0;
+  font-size: 30px;
+}
+
+h3.video-action-title {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.youtube-link-entry input[type="text"] {
+  width: 250px;
+}
+
+/* Cart Dropdown */
+
+#cart-dropdown-container {
+  display: none;
+}
+
+#cart-dropdown {
+  position: absolute;
+  width: 283px;
+  background-color: #fff;
+  left: -231px;
+  top: 30px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#cart-dropdown-top {
+  position: absolute;
+  left: -231px;
+  top: 20px;
+  height: 10px;
+  width: 303px;
+  z-index: -10;
+  border-right: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+  border-width: 0 1px 0 1px;
+}
+
+#cart-dropdown-container .cart-dropdown-header {
+  font-weight: bold;
+}
+
+#cart-dropdown-container .cart-dropdown-item {
+  padding: 5px 0 5px 0;
+}
+
+#cart-dropdown-container .cart-dropdown-item .cart-field {
+  
+  vertical-align: middle;
+}
+
+.cart-dropdown-item .cart-field-name {
+  width: 100px;
+}
+
+#cart-dropdown tr {
+  border-bottom: 1px dashed #DDDDDD;
+}
+
+#cart-dropdown td, #cart-dropdown th {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0 5px 0;
+  vertical-align: middle;
+}
+
+#cart-dropdown table {
+  width: 283px;
+}
+
+#cart-dropdown .button-holder {
+  text-align: right;
+  margin: 10px 0 10px 0;
+}  
+
+/* Search Results */
+
+.quirky-search-results ul li.search-result a.result-title{ font-size:15px;font-weight:100;
+  color:#335687;  }
+
+.quirky-search-results ul li.search-result {
+  padding: 10px 0px;
+}
+
+/*
+*  User Survey
+*/            
+
+.userSurveyItem{
+	border-bottom:1px solid #E5E5E5;padding-bottom:15px;margin-bottom:20px;
+}
+
+.userSurveyItem li{
+	margin-bottom:10px;
+} 
+
+.userSurveyItem li a{
+	font-weight:normal;
+}
+
+.place-block:hover{
+	color:#00AEF0;
+}
+
+div.survey-form-container{
+	display:none;
+}
